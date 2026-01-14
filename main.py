@@ -20,3 +20,10 @@ from wsgiref.validate import validator
 # name_list = ["Toxir", "Ali", "Jasur"]
 # res_name = list(map(lambda value: (value,len(value)),name_list))
 # print(res_name)
+
+#_#_#_#_#_#_#_#_#_#_ Topshiriq__5
+# numbers = [-5, 3, -2, 7, -10, 0]
+# result = list(map(lambda value: -value if value < 0 else value, numbers))
+#
+# print(result)
+
