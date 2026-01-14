@@ -15,3 +15,8 @@ from wsgiref.validate import validator
 # res_word = list(map(lambda value: value.upper(),words))
 #
 # print(res_word)
+
+#_#_#_#_#_#_#_#_#_#_ Topshiriq__4
+# name_list = ["Toxir", "Ali", "Jasur"]
+# res_name = list(map(lambda value: (value,len(value)),name_list))
+# print(res_name)
