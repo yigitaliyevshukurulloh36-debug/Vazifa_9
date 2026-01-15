@@ -2,6 +2,7 @@
 # numbers = [1,2,3,4,5,6,7,8,9,10]
 # num_res = list(map(lambda n: n * 3, numbers))
 # print(num_res)
+from importlib.metadata import pass_none
 from wsgiref.validate import validator
 
 #_#_#_#_#_#_#_#_#_#_ Topshiriq__2
@@ -27,3 +28,23 @@ from wsgiref.validate import validator
 #
 # print(result)
 
+#_#_#_#_#_#_#_#_#_#_ Topshiriq__6
+# prices = [15000, 20000, 30000, 50000, 60000]
+# res_prc = list(map(lambda value: (value,"-->",value+value//100*15),prices))
+# print(res_prc)
+
+#_#_#_#_#_#_#_#_#_#_ Topshiriq__7
+# numbers_list = [1,2,3,4,5,6,7,8,9,10]
+# res_nom_list = list(map(lambda value: 0 if value % 2 == 0  else  value, numbers_list))
+#
+# print(res_nom_list)
+
+#_#_#_#_#_#_#_#_#_#_ Topshiriq__8
+# words_list = ["hello my friend", "hi my friend", "hi my love", "what "]
+# words_list_res = list(map(lambda value: value+"!" if 9<=len(value)>=15  else value, words_list))
+# print(words_list_res)
+
+#_#_#_#_#_#_#_#_#_#_ Topshiriq__9
+# number_list = [1,2,3,4,5,6,7,8,9,10 ]
+# res_n_l = list(filter(lambda value: value % 2 == 0, number_list))
+# print(res_n_l)
